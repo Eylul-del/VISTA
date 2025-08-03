@@ -1,0 +1,86 @@
+body{
+    background-image: url(/images/cozum/cozum-1.png);
+    background-attachment: fixed;
+}
+
+:root{
+    --pGray: rgba(255, 255, 255, 0.619);
+    --mainBorderColor: rgba(217, 217, 217, 0.446);
+    --mainBackBlack: rgb(20, 20, 22);
+}
+
+header{
+    background-image: none;
+    height: 60vh;
+}
+
+main{
+    border: 1px solid var(--mainBorderColor);
+    background-color: var(--mainBackBlack);
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.aciklama{
+    border-right: 1px solid var(--mainBorderColor);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aciklama p{
+    width: 65%;
+    line-height: 25px;
+    color: var(--pGray);
+}
+
+main form{
+    width: 70%;
+    height: 440px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.girisYap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    width: 60%;
+    height: 95%;
+    transform: translateY(17%);
+}
+
+.girisYap div label{
+    display: block;
+    color: var(--pGray);
+    margin-bottom: 10px;
+}
+
+.girisYap div input{
+    height: 35px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 10px;
+}
+
+.girisYap button{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(253, 98, 98);
+    font-size: 19px;
+}
+
+.girisYap button:hover{
+    cursor: pointer;
+    color: black;
+}

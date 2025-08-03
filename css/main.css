@@ -1,0 +1,643 @@
+:root{
+    --pGray: rgba(255, 255, 255, 0.619);
+    --mainBorderColor: rgba(217, 217, 217, 0.446);
+}
+
+*{
+    /* outline: 1px solid limegreen; */
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgba(20,20,22,255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(/images/back/mainbkac.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    color: white;
+}
+
+header nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.703);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    z-index: 55;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .pages{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: 0.4s;
+}
+
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+
+.pages div a:hover,
+button:hover{
+    color: rgba(255,26,26,255);
+    cursor: pointer;
+}
+
+nav .pages .giris{
+    display: flex;
+    letter-spacing: 2px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    height: fit-content;
+    color: rgba(255,26,26,255);
+}
+
+.giris i{
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(255,26,26,255);
+}
+
+.pages button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.652);
+    border: 1px solid var(--mainBorderColor);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+header .headerContent{
+    transform: translate(10%, 50%);
+}
+
+.headerContent h1{
+    font-size: 70px;
+    width: 700px;
+}
+
+.headerContent p{
+    width: 600px;
+    font-size: 30px;
+}
+
+.dahaFazla{
+    width: 170px;
+    height: 55px;
+    background-color: rgb(253, 98, 98);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.dahaFazla a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dahaFazla:hover{
+    cursor: pointer;
+}
+
+
+.textUs{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgb(253, 98, 98);
+    color: black;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 7px;
+    height: 40px;
+    width: 40px;
+    animation: textAnimation 2s ease-in-out infinite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes textAnimation {
+    0%{
+        bottom: 40px;
+    }
+    50%{
+        bottom: 30px;
+    }
+    100%{
+        bottom: 40px;
+    }
+}
+
+.teklif{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(20,20,22,255);
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+    border: 1px solid var(--mainBorderColor);
+    background-blend-mode:multiply;
+
+}
+
+.teklif p{
+    width: 200px;
+}
+
+.teklifBaslik{
+    background-image: url(/images/back/back-2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: 1px solid var(--mainBorderColor);
+
+}
+
+.teklifBaslik h3{
+    width: 300px;
+    font-size: 30px;
+}
+
+.teklifBaslik p{
+    font-size: 18px;
+    line-height: 25px;
+    width: 300px;
+    color: var(--pGray);
+} 
+
+.detaylar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 800px;
+}
+
+.detaylar .col-1,
+.col-2{
+    background-color: rgb(25, 25, 34);
+    width: 200px;
+    padding: 20px;
+    position: relative;
+}
+
+.col-1{
+    top: -80px;
+}
+
+.col-2{
+    bottom: -80px;
+}
+
+.detay img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.empty{
+    height: 2px;
+    width: 200px;
+    padding: 0;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.635);
+}
+
+.detay h3{
+    color: rgba(157, 200, 255, 0.923);
+}
+
+.hizGuvenirlik{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    height: 700px;
+    margin: 150px auto;
+}
+
+.hizGuvenirlikBaslik{
+    background-image: url(/images/back/back-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--mainBorderColor);
+}
+
+.hizGuvenirlikBaslik h3{
+    width: 300px;
+    font-size: 30px;
+}
+
+.hizGuvenirlikBaslik,
+.hizGuvenirlikDetay{
+    width: 50%;
+}
+
+.hizGuvenirlikDetay{
+    padding: 40px;
+    text-align: left;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hizGuvenirlikDetay p{
+    width: 350px;
+    line-height: 27px;
+    margin: 0 auto;
+    color: var(--pGray);
+}
+
+.hizGuvenirlikDetay .dahaFazla{
+    margin-left: 140px;
+}
+
+.rakamlar{
+    text-align: center;
+    margin: 30px;
+}
+
+.tecrubeler{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    /* border: 1px solid red; */
+    height: 600px;
+    background-image: url(/images/back/back-4.png);
+    color: var(--pGray);
+}
+
+.tecrube span{
+    color: rgb(253, 98, 98);
+    font-size: 70px;
+}
+
+.tecrube .empty{
+    width: 170px;
+    margin-top: 0;
+}
+
+.ortakOlun{
+    margin: 50px auto;
+    width: 90%;
+}
+
+.ortakOlun .ortaklar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ortak{
+    height: 150px;
+    width: 250px;
+    border: 1px solid var(--mainBorderColor);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ortak img{
+    height: 150px;
+    width: 200px;
+}
+
+.ortak p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    width: 120px;
+}
+
+.uygulamayaGec{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid var(--mainBorderColor);
+    height: 600px;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.uygulamaBaslik{
+    width: 60%;
+    background-image: url(/images/back/back-5.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uygulamaBaslik h3{
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.uygulamaAciklama{
+    width: 36.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;  
+    border: 1px solid rgba(217, 217, 217, 0.446); 
+}
+
+.aciklamaIcerigi{
+    width: 300px;
+    margin: auto 100px;
+    line-height: 26px;
+    color: var(--pGray);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: var(--pGray);
+    padding: 40px 0;
+    height: 40vh;
+    background-color: black;
+}
+
+footer .logo{
+    color: white;
+}
+
+footer .pagesFooter a{
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: var(--pGray);
+    margin-bottom: 10px;
+}
+
+.aboneOlun input{
+    width: 260px;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid var(--mainBorderColor);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.aboneOlun button{
+    padding: 15px 25px;
+    background-color: transparent;
+    color: var(--pGray);
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: 1px solid var(--mainBorderColor);
+}
+
+.aboneOlun button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(253, 98, 98);
+}
+
+.takipEdin div{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.takipEdin .icons{
+    font-size: 27px;
+    display: flex;
+    gap: 10px;
+}
+
+.icons i{
+    translate: 0.6s;
+    color: gray;
+}
+
+.icons i:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.03);
+}
+
+.takipEdin p{
+    width: 200px;
+}
+
+
+
+@media (max-width: 400px){
+    header{
+        height: 700px;
+    }
+    header .pages{
+        display: none;
+    }
+
+    header nav{
+        justify-content: center;
+    }
+
+    header .logo{
+        position: fixed;
+        width: 390px;
+        height: 70px;
+        top: 0;
+        font-size: 30px;
+        z-index: 434;
+        background-color: rgb(25, 25, 34);
+    }
+    header .logo img{
+        width: 40px;
+        height: 40px;
+        margin-left: 30px;
+    }
+
+    nav{
+        justify-content: center;
+        color: white;
+        padding: 20px;
+    }
+
+    .headerContent{
+        width: 340px;
+        /* transform: (-20%); */
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerContent h1{
+        font-size: 35px;
+        width: 230px;
+    }
+
+    .headerContent p{
+        font-size: 20px;
+        max-width: 330px;
+    }
+
+    .textUs{
+        z-index: 54;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .teklif{
+        display: block;
+        width: 100%;
+        border: none;
+        justify-content: center;
+    }
+
+    .teklifBaslik{
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+        padding: 0;
+        border: none;
+        height: 600px;
+    }
+
+    .teklifBaslik h3,
+    .teklifBaslik p{
+        width: 250px;
+    }
+    .detaylar{
+        display: block;
+        max-width: 99%;
+        height: 1200px;
+    }
+
+    .detaylar .col-1,
+    .col-2{
+        top: -60px;
+        margin: 0 auto;
+        width: 230px;
+    }
+
+    .hizGuvenirlik,
+    .teklif{
+        width: 99%;
+        display: block;
+        clear: both;
+        min-height: 100vh;
+    }
+
+    .hizGuvenirlik{
+        margin-top: 1200px;
+        height: 950px;
+        border: none;
+    }
+
+    .hizGuvenirlikBaslik{
+        width: 99%;
+        border: none;
+        height: 60vh;
+    }
+
+    .hizGuvenirlikDetay{
+        width: 95%;
+        padding: 20px 10px;
+        margin: 0 auto;
+    }
+
+    .hizGuvenirlikDetay p{
+        width: 320px;
+    }
+
+    .hizGuvenirlikDetay .dahaFazla{
+        margin: 20px;
+    }
+
+    .rakamlar{
+        margin-bottom: 350px;
+        height: 110vh;
+    }
+
+    .rakamlar .tecrubeler{
+        flex-wrap: wrap;
+    }
+
+    .ortaklar{
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .uygulamayaGec{
+        flex-direction: column;
+        margin-top: 50px;
+        border: none;
+    }
+
+    .uygulamaBaslik{
+        width: 99%;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .uygulamaAciklama{
+        width: 280px;
+        border: none;
+    }
+
+    .uygulamaAciklama .aciklamaIcerigi{
+        width: 100%;
+        margin: 0;
+    }
+    
+    footer{
+        border-top: 1px solid var(--mainBorderColor);
+        padding: 40px;
+        height: 140vh;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

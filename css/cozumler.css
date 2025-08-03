@@ -1,0 +1,195 @@
+body{
+    background-image: url(/images/cozum/cozum-1.png);
+    background-attachment: fixed;
+}
+
+:root{
+    --pGray: rgba(255, 255, 255, 0.619);
+    --mainBorderColor: rgba(217, 217, 217, 0.446);
+}
+
+/* 
+*{
+    outline: 1px solid limegreen;
+} */
+
+header{
+    background-image: none;
+    height: 10vh;
+}
+
+main{
+    height: 100vh;
+    padding: 20px;
+    margin-bottom: 600px;
+}
+
+.mainContent{
+    padding: 30px;
+    margin: 70px 100px;
+}
+
+.mainContent h1{
+    width: 800px;
+    font-size: 55px;
+}
+
+.mainContent h3{
+    font-size: 30px;
+}
+
+.hizmetler{
+    background-color: rgb(20, 20, 22);
+
+    border: 1px solid var(--mainBorderColor);
+}
+
+.hizmet{
+    display: flex;
+    gap: 40px;
+    border: 1px solid var(--mainBorderColor);
+}
+
+.hizmetPhoto{
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--mainBorderColor);
+}
+
+
+.hizmetPhoto img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+
+.hizmetAciklama{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+
+.hizmetAciklama p{
+    color: rgb(109, 112, 118);
+}
+
+.entegrePhoto{
+    height: 500px;
+    width: 550px;
+    position: relative;
+    z-index: 1;
+    border-right: 1px solid var(--mainBorderColor);
+
+}
+
+.entegrePhoto img{
+    height: inherit;
+    width: inherit;
+}
+
+.entegrePhoto::after{
+    content: "Ekosisteminizle Entegre Oluyoruz";
+    width: 320px;
+   color: rgb(240, 240, 240);
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    text-align: center;
+    z-index: 32;
+}
+
+.entgreAciklama{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entgreAciklama p{
+    width: 500px;
+    z-index: 4345;
+    color: var(--pGray);
+    line-height: 35px;
+}
+
+footer{
+    position: relative;
+    bottom: -350px;
+}
+
+
+@media (max-width: 400px){
+    
+    main,
+    .hizmetler{
+        width: 400px !important;
+        position: relative;
+        left: -120px !important;
+    }
+
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    main{
+        /* border: 5px solid red !important; */
+        height: fit-content;
+    }
+
+    h1{
+        width: 220px !important;
+        font-size: 25px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .mainContent{
+        width: 400px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        left: -100px !important;
+    }
+
+    .mainContent h3{
+        color: red;
+        font-size: 20px;
+    }
+
+    .hizmetler{
+        position: relative;
+        left: 0px !important;
+    }
+
+    .hizmet{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hizmet .hizmetAciklama{
+        max-width: 350px;
+    }
+
+    .entegrePhoto,
+    .entegrePhoto img{
+        width: 200px;
+    }
+
+    
+}

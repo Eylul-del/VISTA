@@ -1,0 +1,91 @@
+:root{
+    --pGray: rgba(255, 255, 255, 0.619);
+    --mainBorderColor: rgba(217, 217, 217, 0.446);
+}
+
+
+
+header{
+    background-image: url(/images/cozum/cozum-1.png);
+}
+
+
+.headerContent p{
+    width: 55%;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid var(--mainBorderColor);
+    position: relative;
+    top: -150px;
+}
+
+main .ourStory,
+.leadingExperince {
+    display: flex;
+    height: 600px;
+}
+
+/* 
+main .ourStory div, 
+.leadingExperince div{
+    width: 50%;
+} */
+
+.title{
+    width: 150%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/back/back-1.png);
+    background-size: cover;
+}
+
+.title:first-child{
+    border-right: 1px solid var(--mainBorderColor);
+}
+
+.title:last-child{
+    background-image: url(/images/back/visyonTitleBack-2.png);
+    border-left: 1px solid var(--mainBorderColor);
+}
+
+
+.leadingExperince{
+    border-top: 1px solid var(--mainBorderColor);
+    border-bottom: 1px solid var(--mainBorderColor);
+}
+
+
+.storyContent,
+.experince{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 150px;
+    width: 200%;
+    background-color: rgba(20,20,22,255);
+}
+
+.storyContent p,
+.experince p{
+    width: 300px;
+    color: var(--pGray);
+    line-height: 22px;
+}
+
+.experince{
+    width: 200%;
+}
+
+
