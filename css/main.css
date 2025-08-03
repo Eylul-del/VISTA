@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background-image: url(/images/back/mainbkac.png);
+    background-image: url(../images/back/mainbkac.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -183,7 +183,7 @@ header .headerContent{
 }
 
 .teklifBaslik{
-    background-image: url(/images/back/back-2.png);
+    background-image: url(./images/back/back-2.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,7 +258,7 @@ header .headerContent{
 }
 
 .hizGuvenirlikBaslik{
-    background-image: url(/images/back/back-3.png);
+    background-image: url(./images/back/back-3.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -309,7 +309,7 @@ header .headerContent{
     gap: 70px;
     /* border: 1px solid red; */
     height: 600px;
-    background-image: url(/images/back/back-4.png);
+    background-image: url(./images/back/back-4.png);
     color: var(--pGray);
 }
 
@@ -368,7 +368,7 @@ header .headerContent{
 
 .uygulamaBaslik{
     width: 60%;
-    background-image: url(/images/back/back-5.png);
+    background-image: url(./images/back/back-5.png);
     display: flex;
     justify-content: center;
     align-items: center;
