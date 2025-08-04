@@ -136,7 +136,6 @@ footer{
     }
 
     header{
-        /* overflow: hidden; */
         position: fixed;
         z-index: 5456;
         max-width: 100% !important;
@@ -224,8 +223,6 @@ footer{
     }
 
     .entegrePhoto::after{
-        /* position: relative;
-         */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -240,6 +237,5 @@ footer{
     }
     footer{
         width: 100%;
-        /* transform: translateY(-900px); */
     }
 }
