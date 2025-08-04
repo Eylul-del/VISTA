@@ -3,9 +3,6 @@
     --mainBorderColor: rgba(217, 217, 217, 0.446);
 }
 
-*{
-    /* outline: 1px solid limegreen; */
-}
 
 body{
     margin: 0;
@@ -34,6 +31,11 @@ header nav{
     justify-content: space-between;
     padding: 10px 60px;
     z-index: 55;
+}
+
+.navList,
+.sideBar{
+    display: none;
 }
 
 .logo{
@@ -476,6 +478,7 @@ footer .pagesFooter a{
 @media (max-width: 400px){
     header{
         height: 700px;
+        position: relative;
     }
     header .pages{
         display: none;
@@ -483,6 +486,77 @@ footer .pagesFooter a{
 
     header nav{
         justify-content: center;
+    }
+
+
+    .navList{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 88%;
+        font-size: 29px;
+        top: 20px;
+        position: fixed;
+        z-index: 222;
+    }
+
+    .sideBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.958);
+        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        z-index: 99999;
+        padding: 10px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sideBar.active {
+        right: 0%;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+
+    .sideBar ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding: 8px 0;
+        position: relative;
+        top: -40px;
+    }
+
+
+    
+    .sideBar ul li a{
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .hideBar {
+        position: absolute;
+        top: 25px !important;
+        right: 25px;
+        color: rgb(50, 50, 50);
+        z-index: 100000;
+        cursor: pointer;
+    }
+
+    .sideBar .hideBar i {
+        font-size: 28px;
+        color: white;
     }
 
     header .logo{
@@ -494,6 +568,7 @@ footer .pagesFooter a{
         z-index: 434;
         background-color: rgb(25, 25, 34);
     }
+
     header .logo img{
         width: 40px;
         height: 40px;

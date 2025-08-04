@@ -44,6 +44,23 @@
             <h1>Misyonumuz</h1>
             <p>Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
         </div>
+
+         <div class="navList" onclick="showNavList()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="sideBar" id="sideBar">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="cozumler.html">Çözümler</a></li>
+                <li><a href="vizyon.html">Vizyon</a></li>
+                <li><a href="programlar.html">Programlar</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="startNow.html">Hemen Başla</a></li>
+            </ul>
+             <div class="hideBar" onclick="hideBar()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
     </header>
 
     <div class="textUs">
@@ -120,5 +137,7 @@
             </div>
         </div>
     </footer> 
+
+    <script src="main.js"></script>
 </body>
 </html>

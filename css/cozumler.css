@@ -127,6 +127,28 @@ footer{
 
 @media (max-width: 400px){
     
+    body{
+        max-width: 400px !important;
+    }
+
+    header{
+        overflow: hidden;
+        max-width: 400px !important;
+    }
+
+    header nav{
+        max-width: 400px !important;
+        position: relative;
+        left: 0px;
+        height: 60px;
+    }
+
+    .navList{
+        position: absolute;
+        right: 50px !important;
+    }
+
+
     main,
     .hizmetler{
         width: 400px !important;
@@ -158,7 +180,6 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 1px solid red;
         left: -100px !important;
     }
 
@@ -184,8 +205,22 @@ footer{
 
     .entegrePhoto,
     .entegrePhoto img{
-        width: 200px;
+        width: 390px;
     }
 
+    .entegrePhoto::after{
+        /* position: relative;
+         */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-32%);
+    }
     
+
+    .entgreAciklama p{
+        box-sizing: border-box;
+        padding: 10px;
+        width: 360px;
+    }
 }
