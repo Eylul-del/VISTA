@@ -1,5 +1,5 @@
 body{
-    background-image: url(./images/cozum/cozum-1.png);
+    background-image: url(..images/cozum/cozum-1.png);
     background-attachment: fixed;
 }
 
@@ -8,10 +8,6 @@ body{
     --mainBorderColor: rgba(217, 217, 217, 0.446);
 }
 
-/* 
-*{
-    outline: 1px solid limegreen;
-} */
 
 header{
     background-image: none;
