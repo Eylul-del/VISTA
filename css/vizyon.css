@@ -33,11 +33,6 @@ main .ourStory,
     height: 600px;
 }
 
-/* 
-main .ourStory div, 
-.leadingExperince div{
-    width: 50%;
-} */
 
 .title{
     width: 150%;
@@ -45,7 +40,6 @@ main .ourStory div,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
     background-size: cover;
 }
 
