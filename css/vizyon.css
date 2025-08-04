@@ -1,6 +1,6 @@
 :root{
     --pGray: rgba(255, 255, 255, 0.619);
-    /* --mainBorderColor: rgba(217, 217, 217, 0.446); */
+    --mainBorderColor: rgba(217, 217, 217, 0.446);
 }
 
 
@@ -22,7 +22,7 @@ main{
     height: 1200px;
     width: 85%;
     margin: 0 auto;
-    /* /* border: 1px solid var(--mainBorderColor); */ */
+    border: 1px solid var(--mainBorderColor);
     position: relative;
     top: -150px;
 }
@@ -50,18 +50,18 @@ main .ourStory div,
 }
 
 .title:first-child{
-    /* /* border-right: 1px solid var(--mainBorderColor); */ */
+    border-right: 1px solid var(--mainBorderColor);
 }
 
 .title:last-child{
     background-image: url(./images/back/visyonTitleBack-2.png);
-    /* /* border-left: 1px solid var(--mainBorderColor); */ */
+    border-left: 1px solid var(--mainBorderColor);
 }
 
 
 .leadingExperince{
-    /* /* border-top: 1px solid var(--mainBorderColor); */ */
-    /* /* border-bottom: 1px solid var(--mainBorderColor); */ */
+    border-top: 1px solid var(--mainBorderColor);
+    border-bottom: 1px solid var(--mainBorderColor);
 }
 
 
@@ -71,7 +71,7 @@ main .ourStory div,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     padding: 150px;
     width: 200%;
     background-color: rgba(20,20,22,255);
@@ -92,20 +92,17 @@ main .ourStory div,
 
 @media (max-width: 400px) {
     header{
-        /* border: 3px solid red; */
         height: 500px;
+        margin-bottom: 100px;
     }
 
     .headerContent p {
-        /* border: 1px solid red; */
         width: 300px;
     }
 
     main{
         max-width: 400px !important;
         height: 200vh;
-        /* border: 3px solid red; */
-        /* margin-top: 180px; */
     }
     .ourStory,
     .leadingExperince{
@@ -114,7 +111,6 @@ main .ourStory div,
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border: 3px solid blue; */
     }
 
     .leadingExperince .title{
@@ -129,7 +125,8 @@ main .ourStory div,
     .storyContent,
     .experince{
         max-width: 305px;
-        /* border: 1px solid limegreen; */
+        border: none;
+
     } 
 
     .storyContent,
