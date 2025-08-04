@@ -129,43 +129,57 @@ footer{
     
     body{
         max-width: 400px !important;
-    }
-
-    header{
-        overflow: hidden;
-        max-width: 400px !important;
-    }
-
-    header nav{
-        max-width: 400px !important;
-        position: relative;
-        left: 0px;
-        height: 60px;
-    }
-
-    .navList{
-        position: absolute;
-        right: 50px !important;
-    }
-
-
-    main,
-    .hizmetler{
-        width: 400px !important;
-        position: relative;
-        left: -120px !important;
-    }
-
-    body{
+        overflow-x: hidden;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
 
-    main{
-        /* border: 5px solid red !important; */
-        height: fit-content;
+    header{
+        /* overflow: hidden; */
+        position: fixed;
+        z-index: 5456;
+        max-width: 100% !important;
     }
+
+    header nav{
+        width: 10 !important;
+        position: relative;
+        left: -0px;
+        height: 60px;
+    }
+
+    nav .logo{
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        height: 80px !important;
+    }
+
+    .navList{
+        position: fixed;
+        right: 0px !important;
+    }
+
+    .navList i{
+        position: absolute;
+        right: 50px !important;
+    }
+
+    .hizmetler{
+        width: 360px !important;
+        position: relative;
+        right: 150px !important;
+    }
+
+
+    main{
+        height: 370vh;
+        width: 360px;
+        position: relative;
+        left: 60px;
+    }
+
 
     h1{
         width: 220px !important;
@@ -180,7 +194,8 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        left: -100px !important;
+        position: absolute;
+        left: -150px !important;
     }
 
     .mainContent h3{
@@ -205,7 +220,7 @@ footer{
 
     .entegrePhoto,
     .entegrePhoto img{
-        width: 390px;
+        width: 355px;
     }
 
     .entegrePhoto::after{
@@ -221,6 +236,10 @@ footer{
     .entgreAciklama p{
         box-sizing: border-box;
         padding: 10px;
-        width: 360px;
+        width: 300px;
+    }
+    footer{
+        width: 100%;
+        /* transform: translateY(-900px); */
     }
 }
