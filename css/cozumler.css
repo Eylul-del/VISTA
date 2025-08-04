@@ -257,6 +257,6 @@ footer{
         width: 300px;
     }
     footer{
-        width: 100%;
+        width: 100% !important ;
     }
 }

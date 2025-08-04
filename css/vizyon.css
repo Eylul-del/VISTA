@@ -111,10 +111,12 @@ main .ourStory div,
         display: flex;
         flex-direction: column;
         align-items: center;
+        border: none;
     }
 
     .leadingExperince .title{
         order: 0;
+        border-top: 1px solid var(--mainBorderColor) !important;
     }
 
     .leadingExperince .experince{
@@ -125,8 +127,7 @@ main .ourStory div,
     .storyContent,
     .experince{
         max-width: 305px;
-        border: none;
-
+        border: none !important;
     } 
 
     .storyContent,
