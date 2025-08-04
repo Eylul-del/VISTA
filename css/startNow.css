@@ -84,3 +84,46 @@ main form{
     cursor: pointer;
     color: black;
 }
+
+@media (max-width: 400px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent h1,
+    .headerContent p{
+        width: 330px;
+        position: relative;
+        top: 30px;
+    }
+
+    main{
+        height: 150vh;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        position: relative;
+        top: -30px;
+    }
+
+    main .aciklama{
+        border-right: none;
+        width: 350px;
+        text-align: center;
+    }
+
+    .aciklama P{
+        width: inherit;
+    }
+
+    form input{
+        width: 300px !important;
+    }
+
+    form .girisYap label{
+        position: relative;
+        left: 10px;
+    }
+}

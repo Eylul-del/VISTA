@@ -84,3 +84,52 @@ main .about p{
 .socialMedia i{
     font-size: 25px;
 }
+
+@media (max-width: 400px) {
+
+    /* header{
+    } */
+
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 !important;
+        position: relative;
+    }
+
+    .headerContent .headerMainImg{
+        order: 0;
+        width: 300px;
+        height: 235px;
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+
+    .headerContent .title{
+        order: 1;
+        width: 300px !important;
+        position: relative;
+        top: 270px;
+    }
+
+    .title h1{
+        font-size: 35px !important;
+        width: 300px !important;
+    }
+
+    main{
+        max-width: 375px !important;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    main hr{
+        width: 375px;
+    }
+
+    main .about p{
+        max-width: 320px;
+    }
+}

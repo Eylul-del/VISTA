@@ -115,3 +115,26 @@ main .productCard{
 .seeMore:hover{
     cursor: pointer;
 }
+
+@media (max-width: 400px) {
+    main{
+        width: 375px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    main .productCard{
+        display: flex !important;
+        flex-direction: column !important;
+        position: relative;
+        justify-content: center;
+        width: 375px;
+        border-top: 1px solid var(--mainBorderColor);
+    }
+
+    .productImg{
+        width: 250px;
+        height: 200px;
+        position: relative;
+        top: -50px;
+    }
+}
