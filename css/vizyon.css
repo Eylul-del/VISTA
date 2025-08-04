@@ -45,16 +45,33 @@ main .ourStory div,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/back/back-1.png);
+    background-image: url();
     background-size: cover;
 }
 
-.title:first-child{
+.title:first-child::after{
+    content: "Hikâyemiz";
+    width: 320px;
+   color: rgb(240, 240, 240);
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    text-align: center;
+    z-index: 32;
     border-right: 1px solid var(--mainBorderColor);
 }
 
-.title:last-child{
-    background-image: url(./images/back/visyonTitleBack-2.png);
+.title:last-child::after{
+    content: "Deneyimli Liderlik";
+    width: 320px;
+   color: rgb(240, 240, 240);
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 135px;
+    text-align: center;
+    z-index: 32;
     border-left: 1px solid var(--mainBorderColor);
 }
 
