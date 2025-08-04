@@ -477,7 +477,7 @@ footer .pagesFooter a{
 
 @media (max-width: 400px){
     header{
-        height: 700px;
+        height: 500px;
         position: relative;
     }
     header .pages{
@@ -536,11 +536,15 @@ footer .pagesFooter a{
     }
 
 
-    
+    .sideBar ul li{
+        width: 100% !important;
+        text-align: center;
+    }
+
     .sideBar ul li a{
         text-decoration: none;
         padding: 5px 10px;
-        font-size: 16px;
+        font-size: 18px;
         color: white;
     }
 
@@ -583,7 +587,6 @@ footer .pagesFooter a{
 
     .headerContent{
         width: 340px;
-        /* transform: (-20%); */
         padding: 0;
         margin: 0;
     }
@@ -608,6 +611,7 @@ footer .pagesFooter a{
         display: block;
         width: 100%;
         border: none;
+        height: 1700px;
         justify-content: center;
     }
 
@@ -643,10 +647,11 @@ footer .pagesFooter a{
         display: block;
         clear: both;
         min-height: 100vh;
+
     }
 
     .hizGuvenirlik{
-        margin-top: 1200px;
+        margin-top: 00px;
         height: 950px;
         border: none;
     }

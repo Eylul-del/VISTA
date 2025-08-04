@@ -136,15 +136,17 @@ footer{
     }
 
     header{
+        max-width: 400px !important;
+        height: 80px;
         position: fixed;
         z-index: 5456;
         max-width: 100% !important;
     }
 
     header nav{
-        width: 10 !important;
+        width: 360px !important;
         position: relative;
-        left: -0px;
+        left: 0px;
         height: 60px;
     }
 
@@ -177,14 +179,15 @@ footer{
         width: 360px;
         position: relative;
         left: 60px;
+        top: 40px;
     }
 
 
     h1{
-        width: 220px !important;
-        font-size: 25px !important;
+        width: 350px !important;
+        font-size: 30px !important;
         text-align: center;
-        margin: 0 auto;
+        margin: 0 auto 30px;
     }
 
     .mainContent{
@@ -198,8 +201,7 @@ footer{
     }
 
     .mainContent h3{
-        color: red;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .hizmetler{
@@ -220,6 +222,25 @@ footer{
     .entegrePhoto,
     .entegrePhoto img{
         width: 355px;
+    }
+
+    .hizmet,
+    .hizmetler,
+    .hizmetPhoto{
+        border: none;
+    }
+
+    
+    .hizmetPhoto img{
+        height: 150px;
+        width: 150px !important;
+        border: none !important; 
+    }
+
+    .hizmet h4{
+        font-size: 22px;
+        position: relative;
+        top: -20px;
     }
 
     .entegrePhoto::after{
