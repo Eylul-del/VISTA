@@ -131,7 +131,7 @@ footer{
 @media (max-width: 420px){
     body{
         max-width: 420px !important;
-        height: 510vh;
+        height: 410vh;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
