@@ -125,18 +125,16 @@ footer{
 }
 
 
-@media (max-width: 400px){
-    
+@media (max-width: 420px){
     body{
-        max-width: 400px !important;
-        overflow-x: hidden;
+        max-width: 420px !important;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
 
     header{
-        max-width: 400px !important;
+        max-width: 420px !important;
         height: 80px;
         position: fixed;
         z-index: 5456;
@@ -144,7 +142,7 @@ footer{
     }
 
     header nav{
-        width: 360px !important;
+        width: 420px !important;
         position: relative;
         left: 0px;
         height: 60px;
@@ -176,7 +174,7 @@ footer{
 
     main{
         height: 370vh;
-        width: 360px;
+        width: 400px !important;
         position: relative;
         left: 60px;
         top: 40px;

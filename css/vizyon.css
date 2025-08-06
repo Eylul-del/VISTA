@@ -90,7 +90,7 @@ main .ourStory div,
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     header{
         height: 500px;
         margin-bottom: 100px;

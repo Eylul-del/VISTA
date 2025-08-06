@@ -475,11 +475,19 @@ footer .pagesFooter a{
 
 
 
-@media (max-width: 400px){
+@media (max-width: 420px){
+
+    body{
+        max-width: 420px !important;
+        overflow-x: hidden;
+    }
+
     header{
+        max-width: 420px !important;
         height: 500px;
         position: relative;
     }
+    
     header .pages{
         display: none;
     }

@@ -116,10 +116,9 @@ main .productCard{
     cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
     header{
-        border: 1px solid red;
         height: 400px;
         margin-bottom: 70px;
     }

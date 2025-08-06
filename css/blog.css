@@ -114,7 +114,7 @@ main{
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     header{
         height:300px;
         position: relative;
