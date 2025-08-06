@@ -8,6 +8,9 @@ body{
     --mainBorderColor: rgba(217, 217, 217, 0.446);
 }
 
+*{
+    outline: 1px solid limegreen;
+}
 
 header{
     background-image: none;
@@ -128,9 +131,11 @@ footer{
 @media (max-width: 420px){
     body{
         max-width: 420px !important;
+        height: 510vh;
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        border: 1px solid blue;
     }
 
     header{
@@ -255,6 +260,6 @@ footer{
         width: 300px;
     }
     footer{
-        width: 100% !important ;
+        width: 420px !important ;
     }
 }

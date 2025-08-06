@@ -3,10 +3,6 @@
     --mainBorderColor: rgba(217, 217, 217, 0.446);
 }
 
-*{
-    /* outline: 1px solid limegreen; */
-}
-
 body{
     margin: 0;
     overflow-x: hidden;
