@@ -8,6 +8,16 @@
     "giris": "Giriş",
     "hemenBasla": "Hemen Başla"
   },
+
+  "sideNav": {
+    "anasayfa" : "Anasayfa",
+    "cozumler": "Çözümler",
+    "vizyon": "Vizyon",
+    "programlar": "Programlar",
+    "blog": "Blog",
+    "hemenBasla": "Hemen Başla"
+  },
+
   "headerContent": {
     "title": "Veri Analizinde Yeni Standart",
     "subtitle": "Işletmenizi 360 Derecelik Görünümü Için Verileri Kullan",

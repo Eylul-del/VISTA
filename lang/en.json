@@ -8,6 +8,17 @@
     "giris": "Login",
     "hemenBasla": "Start Now"
   },
+
+  
+  "sideNav": {
+    "anasayfa" : "Home",
+    "cozumler": "Solutions",
+    "vizyon": "Vision",
+    "programlar": "Programs",
+    "blog": "Blog",
+    "hemenBasla": "Start Now"
+  },
+
   "headerContent": {
     "title": "New Standard in Data Analytics",
     "subtitle": "Use data for a 360-degree view of your business",
