@@ -12,30 +12,34 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <a href="index.html"><h3>VISTA.IO</h3></a>
+                <img src="./images/mainLogo.png" alt="logo" id="logoImg" data-i18n-alt="alt.logo" />
+                <a href="index.html"><h3 data-i18n="logoTitle">VISTA.IO</h3></a>
             </div>
             <div class="pages">
                 <div class="cozumler">
-                <a href="cozumler.html">Çözümler</a>
+                    <a href="cozumler.html" data-i18n="nav.cozumler">Çözümler</a>
                 </div>
                 <div class="vizyon">
-                    <a href="vizyon.html">Vizyon</a>
+                    <a href="vizyon.html" data-i18n="nav.vizyon">Vizyon</a>
                 </div>
                 <div class="program">
-                    <a href="programlar.html">Programlar</a>
+                    <a href="programlar.html" data-i18n="nav.programlar">Programlar</a>
                 </div>
                 <div class="blog">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" data-i18n="nav.blog">Blog</a>
                 </div>
-                <div class="giris">
-                    <a href="giris.html"> 
-                    <i class="fa-solid fa-user"></i> Giriş
-                </a>
+                <div class="lang">
+                    <i class="fa-solid fa-language" id="langIcon"></i>
+                    <ul id="languageList" style="display: none;">
+                        <li data-lang="ar">العربية</li>
+                        <li data-lang="en">English</li>
+                        <li data-lang="tr">Türkçe</li>
+                    </ul>
                 </div>
+
                 <div class="hemenBasla">
                     <a href="startNow.html">
-                        <button>Hemen Başla</button>
+                        <button data-i18n="nav.hemenBasla">Hemen Başla</button>
                     </a>
                 </div>
             </div>
@@ -53,6 +57,16 @@
                 <li><a href="programlar.html">Programlar</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="startNow.html">Hemen Başla</a></li>
+                <li>
+                    <div class="lang">
+                        <i class="fa-solid fa-language" id="langIcon"></i>
+                        <ul id="languageList" style="display: none;">
+                            <li data-lang="ar">العربية</li>
+                            <li data-lang="en">English</li>
+                            <li data-lang="tr">Türkçe</li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
              <div class="hideBar" onclick="hideBar()">
                 <i class="fa-solid fa-xmark"></i>
@@ -65,107 +79,119 @@
     </div>
 
     <main>
-       <div class="mainContent">
-            <h1>Hızlandırılmış Analitiğin Yeni Çağına Adım Atın</h1>
-            <h3>Hizmetlerimiz</h3>
-        <div class="hizmetler">
-            <div class="hizmet">
-                <div class="hizmetPhoto">
-                    <img src="./images/cozum/hizmet-1.png" alt="Bulut analitigi">
-                </div>
-                <div class="hizmetAciklama">
-                    <h4>Bulut Analitiği Modernizasyonu</h4>
-                    <p>Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-                </div>
-            </div>
+  <div class="mainContent">
+    <h1 data-i18n="mainContent.title">Hızlandırılmış Analitiğin Yeni Çağına Adım Atın</h1>
+    <h3 data-i18n="mainContent.servicesTitle">Hizmetlerimiz</h3>
 
-            <div class="hizmet">
-                <div class="hizmetPhoto">
-                    <img src="./images/cozum/hizmet-2.png" alt="Bulut analitigi">
-                </div>
-                <div class="hizmetAciklama">
-                    <h4>Hızlandırılmış Veri Bilini Uygulamaları</h4>
-                    <p>Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-                </div>
-            </div>
+    <div class="hizmetler">
+      <div class="hizmet">
+        <div class="hizmetPhoto">
+          <img src="./images/cozum/hizmet-1.png" alt="" data-i18n-alt="mainContent.services.0.photoAlt" />
+        </div>
+        <div class="hizmetAciklama">
+          <h4 data-i18n="mainContent.services.0.header">Bulut Analitiği Modernizasyonu</h4>
+          <p data-i18n="mainContent.services.0.description">
+            Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+          </p>
+        </div>
+      </div>
 
-            <div class="hizmet">
-                <div class="hizmetPhoto">
-                    <img src="./images/cozum/hizmet-3.png" alt="Bulut analitigi">
-                </div>
-                <div class="hizmetAciklama">
-                    <h4>Uygulamada Çok Yönlü</h4>
-                    <p>Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-                </div>
-            </div>
+      <div class="hizmet">
+        <div class="hizmetPhoto">
+          <img src="./images/cozum/hizmet-2.png" alt="" data-i18n-alt="mainContent.services.1.photoAlt" />
+        </div>
+        <div class="hizmetAciklama">
+          <h4 data-i18n="mainContent.services.1.header">Hızlandırılmış Veri Bilini Uygulamaları</h4>
+          <p data-i18n="mainContent.services.1.description">
+            Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+          </p>
+        </div>
+      </div>
 
-            <div class="hizmet">
-                <div class="hizmetPhoto">
-                    <img src="./images/cozum/hizmet-4.png" alt="Bulut analitigi">
-                </div>
-                <div class="hizmetAciklama">
-                    <h4>Eksiksiz Müşteri Deneyimi Hizmeti</h4>
-                    <p>Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-                </div>
-            </div>
-            <div class="hizmet">
-                <div class="entegrePhoto">
-                    <img src="./images/cozum/cozum-2.png" alt="">
-                </div>
-                <div class="entgreAciklama">
-                    <p> Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-                </div>
-            </div>
-          </div>
-       </div>
-    </main>
+      <div class="hizmet">
+        <div class="hizmetPhoto">
+          <img src="./images/cozum/hizmet-3.png" alt="" data-i18n-alt="mainContent.services.2.photoAlt" />
+        </div>
+        <div class="hizmetAciklama">
+          <h4 data-i18n="mainContent.services.2.header">Uygulamada Çok Yönlü</h4>
+          <p data-i18n="mainContent.services.2.description">
+            Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+          </p>
+        </div>
+      </div>
+
+      <div class="hizmet">
+        <div class="hizmetPhoto">
+          <img src="./images/cozum/hizmet-4.png" alt="" data-i18n-alt="mainContent.services.3.photoAlt" />
+        </div>
+        <div class="hizmetAciklama">
+          <h4 data-i18n="mainContent.services.3.header">Eksiksiz Müşteri Deneyimi Hizmeti</h4>
+          <p data-i18n="mainContent.services.3.description">
+            Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+          </p>
+        </div>
+      </div>
+
+      <div class="hizmet">
+        <div class="entegrePhoto">
+          <img src="./images/cozum/cozum-2.png" alt="" data-i18n-alt="mainContent.services.4.photoAlt" />
+        </div>
+        <div class="entgreAciklama">
+          <p data-i18n="mainContent.services.4.description">
+            Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
     
-    <footer>
+   <footer>
         <div class="connectInfo">
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <h3>VISTA.IO</h3>
+                <img src="./images/mainLogo.png" alt="logo" id="footerLogoImg" data-i18n-alt="alt.logo" />
+                <h3 data-i18n="logoTitle">VISTA.IO</h3>
             </div>
-            <p>+90 212 234 56 78</p>
-            <p>bilgi@sitem.com</p>
-            <p>Büyükdere Caddesi No. 263</p>
-            <p>Sarıyer, Istanbul 34398</p>
+            <p data-i18n="footer.phone">+90 212 234 56 78</p>
+            <p data-i18n="footer.email">bilgi@sitem.com</p>
+            <p data-i18n="footer.address1">Büyükdere Caddesi No. 263</p>
+            <p data-i18n="footer.address2">Sarıyer, Istanbul 34398</p>
         </div>
         <div class="pagesFooter">
-            <a href="#">Çözümler</a>
-            <a href="#">Vizyon</a>
-            <a href="#">Programlar</a>
-            <a href="#">Blog</a>
+            <a href="#" data-i18n="footer.nav.cozumler">Çözümler</a>
+            <a href="#" data-i18n="footer.nav.vizyon">Vizyon</a>
+            <a href="#" data-i18n="footer.nav.programlar">Programlar</a>
+            <a href="#" data-i18n="footer.nav.blog">Blog</a>
             <div class="dahaFazla">
-                <a href="startNow.html">Hemen Başla</a>
+                <a href="startNow.html" data-i18n="footer.nav.startNow">Hemen Başla</a>
             </div>
         </div>
         <div class="aboneOlun">
-            <h4>Bültenimize Abone Olun</h4>
+            <h4 data-i18n="footer.newsletter.title">Bültenimize Abone Olun</h4>
             <form action="">
-                <label>E-posta*</label>
-                <input type="email">
-                <button type="reset">Gönder</button>
+                <label for="emailInput" data-i18n="footer.newsletter.emailLabel">E-posta*</label>
+                <input type="email" id="emailInput" placeholder="E-posta adresinizi girin" data-i18n-placeholder="footer.newsletter.emailPlaceholder" />
+                <button type="reset" data-i18n="footer.newsletter.button">Gönder</button>
             </form>
         </div>
         <div class="takipEdin">
-            <h4>Bizi Takip Edin:</h4>
+            <h4 data-i18n="footer.followUs.title">Bizi Takip Edin:</h4>
             <div class="icons">
-                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en" id="instagram"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
             <div class="politikalar">
-                <p>Gizlilik Politikası</p>
-                <p>Çerez Politikası</p>
-                <p>Erişilebilirlik Beyanı</p>
+                <p data-i18n="footer.policies.privacy">Gizlilik Politikası</p>
+                <p data-i18n="footer.policies.cookie">Çerez Politikası</p>
+                <p data-i18n="footer.policies.accessibility">Erişilebilirlik Beyanı</p>
             </div>
             <div class="rights">
-                <p>© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
+                <p data-i18n="footer.copyright">© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
             </div>
         </div>
-    </footer> 
+    </footer>
 
     <script src="main.js"></script>
 </body>

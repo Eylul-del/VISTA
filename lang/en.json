@@ -1,0 +1,297 @@
+{
+  "logoTitle": "VISTA.IO",
+  "nav": {
+    "cozumler": "Solutions",
+    "vizyon": "Vision",
+    "programlar": "Programs",
+    "blog": "Blog",
+    "giris": "Login",
+    "hemenBasla": "Start Now"
+  },
+  "headerContent": {
+    "title": "New Standard in Data Analytics",
+    "subtitle": "Use data for a 360-degree view of your business",
+    "more": "Learn More"
+  },
+  "offer": {
+    "title": "Take Your Data and Business to Higher Levels",
+    "description": "This is a paragraph. Click to add your own text. Edit your content and change the font.",
+    "details": [
+      {
+        "title": "Cloud Analytics Modernization",
+        "description": "This is a paragraph. Click to add your own text. Introduce yourself to your users."
+      },
+      {
+        "title": "Versatility in Application",
+        "description": "This is a paragraph. Click to add your own text. Introduce yourself to your users."
+      },
+      {
+        "title": "Accelerated Data Science Applications",
+        "description": "This is a paragraph. Click to add your own text. Introduce yourself to your users."
+      },
+      {
+        "title": "Complete Customer Experience Service",
+        "description": "This is a paragraph. Click to add your own text. Introduce yourself to your users."
+      }
+    ]
+  },
+  "speedReliability": {
+    "title": "Unmatched Speed. Perfect Reliability",
+    "paragraph1": "This is a paragraph. Click to add your own text. Edit your content and change the font. You can drag and drop this section anywhere on the page. This is a great place to tell a story and introduce yourself to your users.",
+    "paragraph2": "This is a great place to write a long text about your company and services. You can use this area to provide more detailed information about your company. Tell your visitors about your team and the services you offer. Tell them how the idea to start this business was born and what sets you apart from your competitors. Make your company stand out and show yourself to your visitors.",
+    "more": "Learn More"
+  },
+  "numbers": {
+    "title": "Proud of Our Numbers",
+    "experience": "Years of Experience",
+    "partners": "Thousand Solution Partners",
+    "products": "Million Installed Products",
+    "countries": "Countries Served",
+    "awards": "Industry Awards"
+  },
+  "partners": {
+    "title": "Solution Partners"
+  },
+  "readyToStart": {
+    "title": "Ready to Energize Your Business?",
+    "description": "This is a paragraph. Click to add your own text. Edit your content and change the font.",
+    "button": "Start Now"
+  },
+  "footer": {
+    "phone": "+90 212 234 56 78",
+    "email": "info@sitem.com",
+    "address1": "Büyükdere Street No. 263",
+    "address2": "Sarıyer, Istanbul 34398",
+    "nav": {
+      "cozumler": "Solutions",
+      "vizyon": "Vision",
+      "programlar": "Programs",
+      "blog": "Blog",
+      "startNow": "Start Now"
+    },
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "emailLabel": "Email*",
+      "emailPlaceholder": "Enter your email address",
+      "button": "Send"
+    },
+    "followUs": {
+      "title": "Follow Us:"
+    },
+    "policies": {
+      "privacy": "Privacy Policy",
+      "cookie": "Cookie Policy",
+      "accessibility": "Accessibility Statement"
+    },
+    "copyright": "© 2035, Vista.io. Powered and secured by Wix"
+  },
+  "alt": {
+    "logo": "logo",
+    "prog1": "Program 1",
+    "prog2": "Program 2",
+    "prog3": "Program 3",
+    "prog4": "Program 4",
+    "partner1": "Partner Logo 1",
+    "partner2": "Partner Logo 2",
+    "partner3": "Partner Logo 3",
+    "partner4": "Partner Logo 4"
+  },
+
+  "mainContent": {
+      "title": "Step Into the New Era of Accelerated Analytics",
+      "servicesTitle": "Our Services",
+      "services": [
+      {
+        "photoAlt": "Cloud analytics",
+        "header": "Cloud Analytics Modernization",
+        "description": "This is a paragraph. Click to add your own text. Edit your content and change the font by clicking “Edit Text” or double-click here. This is a great place to tell a story and introduce yourself to your users."
+      },
+      {
+        "photoAlt": "Cloud analytics",
+        "header": "Accelerated Data Science Applications",
+        "description": "This is a paragraph. Click to add your own text. Edit your content and change the font by clicking “Edit Text” or double-click here. This is a great place to tell a story and introduce yourself to your users."
+      },
+      {
+        "photoAlt": "Cloud analytics",
+        "header": "Versatility in Application",
+        "description": "This is a paragraph. Click to add your own text. Edit your content and change the font by clicking “Edit Text” or double-click here. This is a great place to tell a story and introduce yourself to your users."
+      },
+      {
+        "photoAlt": "Cloud analytics",
+        "header": "Complete Customer Experience Service",
+        "description": "This is a paragraph. Click to add your own text. Edit your content and change the font by clicking “Edit Text” or double-click here. This is a great place to tell a story and introduce yourself to your users."
+      },
+      {
+        "photoAlt": "",
+        "header": "",
+        "description": "This is a paragraph. Click to add your own text. Edit your content and change the font by clicking “Edit Text” or double-click here. This is a great place to tell a story and introduce yourself to your users."
+      }
+    ]
+  },
+  "vizyonHeader":{
+    "title": "Our mission",
+    "description" : "This is a paragraph. Click to add your text. Click  or double-click here to add your content and change the font. This is a great place to tell a story and introduce yourself to your users."
+  },
+
+  "ourStory": {
+    "title": "Our Story",
+    "paragraph1": "This is a paragraph. Click to add your own text. Click “Edit Text” or double-click here to add your own content and change the font. You can drag and drop this area anywhere on the page. This is a great place to tell a story and introduce yourself to your users.",
+    "paragraph2": "This is a great place to write a long text about your company and your services. You can use this area to provide more detailed information about your business. Tell your visitors about your team and the services you offer. Explain how the idea of starting this business came about and what sets you apart from your competitors. Make your company stand out and show yourself to your visitors."
+  },
+  "leadingExperience": {
+    "title": "Experienced Leadership",
+    "paragraph1": "This is a paragraph. Click to add your own text. Click “Edit Text” or double-click here to add your own content and change the font. You can drag and drop this area anywhere on the page. This is a great place to tell a story and introduce yourself to your users.",
+    "paragraph2": "This is a great place to write a long text about your company and your services. You can use this area to provide more detailed information about your business. Tell your visitors about your team and the services you offer. Explain how the idea of starting this business came about and what sets you apart from your competitors. Make your company stand out and show yourself to your visitors."
+  },
+
+
+  "headerPrograms": {
+    "title": "Data Analysis Programs",
+     "description": "This is a paragraph. Click to add your own text."
+  },
+  "products": {
+    "prod1": {
+      "alt": "Cloud technique image",
+      "name": "Cloud Analytics for Beginners",
+      "duration": "14 Days",
+      "price": "$2,400.00",
+      "seeMore": "See Details"
+    },
+    "prod2": {
+      "alt": "Cloud technique image",
+      "name": "Data Analytics Tools",
+      "duration": "28 Days",
+      "price": "$4,000.00",
+      "seeMore": "See Details"
+    },
+    "prod3": {
+      "alt": "Cloud technique image",
+      "name": "Data-Driven Decision Making Process",
+      "duration": "56 Days",
+      "price": "$5,000.00",
+      "seeMore": "See Details"
+    }
+  },
+
+
+  "bulutAnalitigiHeader": {
+    "title": "Cloud Analytics for Dummies",
+    "description" : "14 Days"
+  },
+  "aboutOne": {
+    "title": "About",
+    "description1": "Describe your program. Why should everyone join? Use a short and engaging text to explain the benefits of joining the program. A good description increases the likelihood that people will join your program.",
+    "description2": "You can also join this program via the mobile app.",
+    "appLink": "Go to App"
+  },
+  "priceOne": {
+    "title": "Price",
+    "amount": "$2,400.50"
+  },
+  "shareOne": {
+    "title": "Share",
+    "facebookAlt": "Facebook icon",
+    "twitterAlt": "Twitter icon",
+    "linkedinAlt": "LinkedIn icon",
+    "copyAlt": "Copy link icon"
+  },
+  "veriAnalitiğiHeader":{
+    "title": "Data Analytics Tools",
+    "description" : "28 Days"
+  },
+  "priceTow": {
+    "title" : "Price"
+  },
+
+  "shareTwo": {
+    "title": "Share"
+  },
+  
+  "veriyeDayaliKararAlmaHeader": {
+    "title": "Data-Driven Decision Making Process",
+    "description" :"56 Days"
+  },
+
+  "blog": {
+    "pageTitle": "Blog",
+    "logoTitle": "VISTA.IO",
+    "btnHemenBasla": "Start Now",
+    "headerTitle": "Big Data Blog",
+    "comments": [
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "8 Technology Trends That Will Define This Year",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "24",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Introduction to Data Query Engines",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "7",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Guide to Migrating to Online Databases",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "6",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Key Data Integration Use Cases for Next Year",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "2",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Top 10 Sales Skills You Need to Master",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "2",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Now Is the Time for Income Intelligence",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "1",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "How to Make Data Science Workflow More Efficient?",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "0",
+        "comments": "0"
+      },
+      {
+        "date": "31 May 2025 . 1 min read",
+        "title": "Your Sales Forecast Is Ready. What Now?",
+        "summary": "Summarizing your article in a few short and effective sentences to engage your audience",
+        "views": "3",
+        "comments": "0"
+      }
+    ]
+  },
+
+  "formHeader": {
+    "title": "Get Started Now",
+    "description": "This is a paragraph. Click to add your own text. This is a great place to tell a story and introduce yourself to your users."
+  },
+
+  "formSection": {
+    "description": "This is a paragraph. Click to add your own text. This is a great place to tell a story and introduce yourself to your users.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "company": "Company",
+    "phone": "Phone",
+    "title": "Title",
+    "submit": "Submit"
+  }
+
+}
+

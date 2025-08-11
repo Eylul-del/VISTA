@@ -12,37 +12,41 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <a href="index.html"><h3>VISTA.IO</h3></a>
+                <img src="./images/mainLogo.png" alt="logo" id="logoImg" data-i18n-alt="alt.logo" />
+                <a href="index.html"><h3 data-i18n="logoTitle">VISTA.IO</h3></a>
             </div>
             <div class="pages">
                 <div class="cozumler">
-                <a href="cozumler.html">Çözümler</a>
+                    <a href="cozumler.html" data-i18n="nav.cozumler">Çözümler</a>
                 </div>
                 <div class="vizyon">
-                    <a href="vizyon.html">Vizyon</a>
+                    <a href="vizyon.html" data-i18n="nav.vizyon">Vizyon</a>
                 </div>
                 <div class="program">
-                    <a href="programlar.html">Programlar</a>
+                    <a href="programlar.html" data-i18n="nav.programlar">Programlar</a>
                 </div>
                 <div class="blog">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" data-i18n="nav.blog">Blog</a>
                 </div>
-                <div class="giris">
-                    <a href="giris.html"> 
-                    <i class="fa-solid fa-user"></i> Giriş
-                </a>
+                <div class="lang">
+                    <i class="fa-solid fa-language" id="langIcon"></i>
+                    <ul id="languageList" style="display: none;">
+                        <li data-lang="ar">العربية</li>
+                        <li data-lang="en">English</li>
+                        <li data-lang="tr">Türkçe</li>
+                    </ul>
                 </div>
+
                 <div class="hemenBasla">
                     <a href="startNow.html">
-                        <button>Hemen Başla</button>
+                        <button data-i18n="nav.hemenBasla">Hemen Başla</button>
                     </a>
                 </div>
             </div>
         </nav>
         <div class="headerContent">
-            <h1>Hemen Başlayın</h1>
-            <p>İşletmenize büyümesi için gerekenleri verelim.</p>
+            <h1 data-i18n="formHeader.title">Hemen Başlayın</h1>
+            <p data-i18n="formHeader.description">İşletmenize büyümesi için gerekenleri verelim.</p>
         </div>
 
 
@@ -57,6 +61,16 @@
                 <li><a href="programlar.html">Programlar</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="startNow.html">Hemen Başla</a></li>
+                <li>
+                    <div class="lang">
+                        <i class="fa-solid fa-language" id="langIcon"></i>
+                        <ul id="languageList" style="display: none;">
+                            <li data-lang="ar">العربية</li>
+                            <li data-lang="en">English</li>
+                            <li data-lang="tr">Türkçe</li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
              <div class="hideBar" onclick="hideBar()">
                 <i class="fa-solid fa-xmark"></i>
@@ -68,85 +82,88 @@
         <i class="fa-solid fa-comment-dots"></i>
     </div>
 
-    <main>
-            <div class="aciklama">
-                <p>Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.</p>
-            </div>
+<main>
+    <div class="aciklama">
+        <p data-i18n="formSection.description">
+            Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.
+        </p>
+    </div>
 
-            <form>
-                <div class="girisYap">
-                    <div>
-                        <label>Adı</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>Soyadı</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>E-posta</label>
-                        <input type="email">
-                    </div>
-                    <div>
-                        <label>Şirket</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>Telefon</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>Ünvan</label>
-                        <input type="text">
-                    </div>
-                        <button type="submit">Gönder</button>
-                </div>
-            </form>
-    </main>
+    <form>
+        <div class="girisYap">
+            <div>
+                <label data-i18n="formSection.firstName">Adı</label>
+                <input type="text">
+            </div>
+            <div>
+                <label data-i18n="formSection.lastName">Soyadı</label>
+                <input type="text">
+            </div>
+            <div>
+                <label data-i18n="formSection.email">E-posta</label>
+                <input type="email">
+            </div>
+            <div>
+                <label data-i18n="formSection.company">Şirket</label>
+                <input type="text">
+            </div>
+            <div>
+                <label data-i18n="formSection.phone">Telefon</label>
+                <input type="text">
+            </div>
+            <div>
+                <label data-i18n="formSection.title">Ünvan</label>
+                <input type="text">
+            </div>
+            <button type="submit" data-i18n="formSection.submit">Gönder</button>
+        </div>
+    </form>
+</main>
+
 
     
-    <footer>
+  <footer>
         <div class="connectInfo">
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <h3>VISTA.IO</h3>
+                <img src="./images/mainLogo.png" alt="logo" id="footerLogoImg" data-i18n-alt="alt.logo" />
+                <h3 data-i18n="logoTitle">VISTA.IO</h3>
             </div>
-            <p>+90 212 234 56 78</p>
-            <p>bilgi@sitem.com</p>
-            <p>Büyükdere Caddesi No. 263</p>
-            <p>Sarıyer, Istanbul 34398</p>
+            <p data-i18n="footer.phone">+90 212 234 56 78</p>
+            <p data-i18n="footer.email">bilgi@sitem.com</p>
+            <p data-i18n="footer.address1">Büyükdere Caddesi No. 263</p>
+            <p data-i18n="footer.address2">Sarıyer, Istanbul 34398</p>
         </div>
         <div class="pagesFooter">
-            <a href="#">Çözümler</a>
-            <a href="#">Vizyon</a>
-            <a href="#">Programlar</a>
-            <a href="#">Blog</a>
+            <a href="#" data-i18n="footer.nav.cozumler">Çözümler</a>
+            <a href="#" data-i18n="footer.nav.vizyon">Vizyon</a>
+            <a href="#" data-i18n="footer.nav.programlar">Programlar</a>
+            <a href="#" data-i18n="footer.nav.blog">Blog</a>
             <div class="dahaFazla">
-                <a href="startNow.html">Hemen Başla</a>
+                <a href="startNow.html" data-i18n="footer.nav.startNow">Hemen Başla</a>
             </div>
         </div>
         <div class="aboneOlun">
-            <h4>Bültenimize Abone Olun</h4>
+            <h4 data-i18n="footer.newsletter.title">Bültenimize Abone Olun</h4>
             <form action="">
-                <label>E-posta*</label>
-                <input type="email">
-                <button type="reset">Gönder</button>
+                <label for="emailInput" data-i18n="footer.newsletter.emailLabel">E-posta*</label>
+                <input type="email" id="emailInput" placeholder="E-posta adresinizi girin" data-i18n-placeholder="footer.newsletter.emailPlaceholder" />
+                <button type="reset" data-i18n="footer.newsletter.button">Gönder</button>
             </form>
         </div>
         <div class="takipEdin">
-            <h4>Bizi Takip Edin:</h4>
+            <h4 data-i18n="footer.followUs.title">Bizi Takip Edin:</h4>
             <div class="icons">
-                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en" id="instagram"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
             <div class="politikalar">
-                <p>Gizlilik Politikası</p>
-                <p>Çerez Politikası</p>
-                <p>Erişilebilirlik Beyanı</p>
+                <p data-i18n="footer.policies.privacy">Gizlilik Politikası</p>
+                <p data-i18n="footer.policies.cookie">Çerez Politikası</p>
+                <p data-i18n="footer.policies.accessibility">Erişilebilirlik Beyanı</p>
             </div>
             <div class="rights">
-                <p>© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
+                <p data-i18n="footer.copyright">© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
             </div>
         </div>
     </footer>

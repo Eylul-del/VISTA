@@ -6,7 +6,7 @@
 
 
 header{
-    background-image: url(./images/cozum/cozum-1.png);
+    background-image: url(/images/cozum/cozum-1.png);
 }
 
 
@@ -45,7 +45,7 @@ main .ourStory div,
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/back/back-1.png);
+    background-image: url(/images/back/back-1.png);
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ main .ourStory div,
 }
 
 .title:last-child{
-    background-image: url(./images/back/visyonTitleBack-2.png);
+    background-image: url(/images/back/visyonTitleBack-2.png);
     border-left: 1px solid var(--mainBorderColor);
 }
 

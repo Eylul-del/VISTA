@@ -9,40 +9,44 @@
     <title>Programlar</title>
 </head>
 <body>
-        <header>
+    <header>
         <nav>
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <a href="index.html"><h3>VISTA.IO</h3></a>
+                <img src="./images/mainLogo.png" alt="logo" id="logoImg" data-i18n-alt="alt.logo" />
+                <a href="index.html"><h3 data-i18n="logoTitle">VISTA.IO</h3></a>
             </div>
             <div class="pages">
                 <div class="cozumler">
-                <a href="cozumler.html">Çözümler</a>
+                    <a href="cozumler.html" data-i18n="nav.cozumler">Çözümler</a>
                 </div>
                 <div class="vizyon">
-                    <a href="vizyon.html">Vizyon</a>
+                    <a href="vizyon.html" data-i18n="nav.vizyon">Vizyon</a>
                 </div>
                 <div class="program">
-                    <a href="programlar.html">Programlar</a>
+                    <a href="programlar.html" data-i18n="nav.programlar">Programlar</a>
                 </div>
                 <div class="blog">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" data-i18n="nav.blog">Blog</a>
                 </div>
-                <div class="giris">
-                    <a href="giris.html"> 
-                    <i class="fa-solid fa-user"></i> Giriş
-                </a>
+                <div class="lang">
+                    <i class="fa-solid fa-language" id="langIcon"></i>
+                    <ul id="languageList" style="display: none;">
+                        <li data-lang="ar">العربية</li>
+                        <li data-lang="en">English</li>
+                        <li data-lang="tr">Türkçe</li>
+                    </ul>
                 </div>
+
                 <div class="hemenBasla">
                     <a href="startNow.html">
-                        <button>Hemen Başla</button>
+                        <button data-i18n="nav.hemenBasla">Hemen Başla</button>
                     </a>
                 </div>
             </div>
         </nav>
         <div class="headerContent">
-            <h1>Veri Analizi Programları</h1>
-            <p>Bu, bir paragraf. Kendi metninizi eklemek için tıklayın.</p>
+            <h1 data-i18n="headerPrograms.title">Veri Analizi Programları</h1>
+            <p data-i18n="headerPrograms.description">Bu, bir paragraf. Kendi metninizi eklemek için tıklayın.</p>
         </div>
 
 
@@ -57,6 +61,16 @@
                 <li><a href="programlar.html">Programlar</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="startNow.html">Hemen Başla</a></li>
+                <li>
+                    <div class="lang">
+                        <i class="fa-solid fa-language" id="langIcon"></i>
+                        <ul id="languageList" style="display: none;">
+                            <li data-lang="ar">العربية</li>
+                            <li data-lang="en">English</li>
+                            <li data-lang="tr">Türkçe</li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
              <div class="hideBar" onclick="hideBar()">
                 <i class="fa-solid fa-xmark"></i>
@@ -69,128 +83,122 @@
         <i class="fa-solid fa-comment-dots"></i>
     </div>
 
-
-
-    <main>
-        <div class="productCard">
-            <div class="productImg">
-                <img src="./images/prog/prog-1-2.png" alt="Bulut tekniği">
+<main>
+    <div class="productCard">
+        <div class="productImg">
+            <img src="./images/prog/prog-1-2.png" alt="cloudTechnique" data-i18n-alt="products.prod1.alt" />
+        </div>
+        <div class="cardContent">
+            <div class="productName">
+                <a href="bulutAnalitiği.html" data-i18n="products.prod1.name">Yeni Başlayanlar İçin Bulut Analitiği</a>
             </div>
-            <div class="cardContent">
-                <div class="productName">
-                    <a href="bulutAnalitiği.html">Yeni Başlayanlar İçin Bulut Analitiği</a>
-                </div>
-                <div class="duration">
-                    <p>14 Gün</p>
-                </div>
+            <div class="duration">
+                <p data-i18n="products.prod1.duration">14 Gün</p>
+            </div>
 
-                <div class="emptyLineDiv"></div>
-                <div class="price">
-                    <p>$2.400,00</p>
-                </div>
+            <div class="emptyLineDiv"></div>
+            <div class="price">
+                <p data-i18n="products.prod1.price">$2.400,00</p>
+            </div>
 
-                <div class="seeMore">
-                    <a href="bulutAnalitiği.html">Ayrıntıları Görüntüle</a>
-                </div>
+            <div class="seeMore">
+                <a href="bulutAnalitiği.html" data-i18n="products.prod1.seeMore">Ayrıntıları Görüntüle</a>
             </div>
         </div>
+    </div>
 
-
-        <div class="productCard">
-            <div class="productImg">
-                <img src="./images/prog/prog-2.png" alt="Bulut tekniği">
+    <div class="productCard">
+        <div class="productImg">
+            <img src="./images/prog/prog-2.png" alt="cloudTechnique" data-i18n-alt="products.prod2.alt" />
+        </div>
+        <div class="cardContent">
+            <div class="productName">
+                <a href="veriAnalitiği.html" data-i18n="products.prod2.name">Veri Analitiği Araçları</a>
             </div>
-            <div class="cardContent">
-                <div class="productName">
-                    <a href="veriAnalitiği.html">Veri Analitiği Araçları</a>
-                </div>
-                <div class="duration">
-                    <p>28 Gün</p>
-                </div>
+            <div class="duration">
+                <p data-i18n="products.prod2.duration">28 Gün</p>
+            </div>
 
-                <div class="emptyLineDiv"></div>
-                <div class="price">
-                    <p>$4.000,00</p>
-                </div>
+            <div class="emptyLineDiv"></div>
+            <div class="price">
+                <p data-i18n="products.prod2.price">$4.000,00</p>
+            </div>
 
-                <div class="seeMore">
-                    <a href="veriAnalitiği.html">Ayrıntıları Görüntüle</a>
-                </div>
+            <div class="seeMore">
+                <a href="veriAnalitiği.html" data-i18n="products.prod2.seeMore">Ayrıntıları Görüntüle</a>
             </div>
         </div>
+    </div>
 
-
-        <div class="productCard">
-            <div class="productImg">
-                <img src="./images/prog/prog-3.png" alt="Bulut tekniği">
+    <div class="productCard">
+        <div class="productImg">
+            <img src="./images/prog/prog-3.png" alt="cloudTechnique" data-i18n-alt="products.prod3.alt" />
+        </div>
+        <div class="cardContent">
+            <div class="productName">
+                <a href="veriyeDayaliKararAlma.html" data-i18n="products.prod3.name">Veriye Dayalı Karar Alma Süreci</a>
             </div>
-            <div class="cardContent">
-                <div class="productName">
-                    <a href="veriyeDayaliKararAlma.html">Veriye Dayalı Karar Alma Süreci</a>
-                </div>
-                <div class="duration">
-                    <p>56 Gün</p>
-                </div>
+            <div class="duration">
+                <p data-i18n="products.prod3.duration">56 Gün</p>
+            </div>
 
-                <div class="emptyLineDiv"></div>
-                <div class="price">
-                    <p>$5.000,00</p>
-                </div>
+            <div class="emptyLineDiv"></div>
+            <div class="price">
+                <p data-i18n="products.prod3.price">$5.000,00</p>
+            </div>
 
-                <div class="seeMore">
-                    <a href="veriyeDayaliKararAlma.html">Ayrıntıları Görüntüle</a>
-                </div>
+            <div class="seeMore">
+                <a href="veriyeDayaliKararAlma.html" data-i18n="products.prod3.seeMore">Ayrıntıları Görüntüle</a>
             </div>
         </div>
-    </main>
+    </div>
+</main>
 
-
-     <footer>
+  <footer>
         <div class="connectInfo">
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <h3>VISTA.IO</h3>
+                <img src="./images/mainLogo.png" alt="logo" id="footerLogoImg" data-i18n-alt="alt.logo" />
+                <h3 data-i18n="logoTitle">VISTA.IO</h3>
             </div>
-            <p>+90 212 234 56 78</p>
-            <p>bilgi@sitem.com</p>
-            <p>Büyükdere Caddesi No. 263</p>
-            <p>Sarıyer, Istanbul 34398</p>
+            <p data-i18n="footer.phone">+90 212 234 56 78</p>
+            <p data-i18n="footer.email">bilgi@sitem.com</p>
+            <p data-i18n="footer.address1">Büyükdere Caddesi No. 263</p>
+            <p data-i18n="footer.address2">Sarıyer, Istanbul 34398</p>
         </div>
         <div class="pagesFooter">
-            <a href="#">Çözümler</a>
-            <a href="#">Vizyon</a>
-            <a href="#">Programlar</a>
-            <a href="#">Blog</a>
+            <a href="#" data-i18n="footer.nav.cozumler">Çözümler</a>
+            <a href="#" data-i18n="footer.nav.vizyon">Vizyon</a>
+            <a href="#" data-i18n="footer.nav.programlar">Programlar</a>
+            <a href="#" data-i18n="footer.nav.blog">Blog</a>
             <div class="dahaFazla">
-                <a href="startNow.html">Hemen Başla</a>
+                <a href="startNow.html" data-i18n="footer.nav.startNow">Hemen Başla</a>
             </div>
         </div>
         <div class="aboneOlun">
-            <h4>Bültenimize Abone Olun</h4>
+            <h4 data-i18n="footer.newsletter.title">Bültenimize Abone Olun</h4>
             <form action="">
-                <label>E-posta*</label>
-                <input type="email">
-                <button type="reset">Gönder</button>
+                <label for="emailInput" data-i18n="footer.newsletter.emailLabel">E-posta*</label>
+                <input type="email" id="emailInput" placeholder="E-posta adresinizi girin" data-i18n-placeholder="footer.newsletter.emailPlaceholder" />
+                <button type="reset" data-i18n="footer.newsletter.button">Gönder</button>
             </form>
         </div>
         <div class="takipEdin">
-            <h4>Bizi Takip Edin:</h4>
+            <h4 data-i18n="footer.followUs.title">Bizi Takip Edin:</h4>
             <div class="icons">
-                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en" id="instagram"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
             <div class="politikalar">
-                <p>Gizlilik Politikası</p>
-                <p>Çerez Politikası</p>
-                <p>Erişilebilirlik Beyanı</p>
+                <p data-i18n="footer.policies.privacy">Gizlilik Politikası</p>
+                <p data-i18n="footer.policies.cookie">Çerez Politikası</p>
+                <p data-i18n="footer.policies.accessibility">Erişilebilirlik Beyanı</p>
             </div>
             <div class="rights">
-                <p>© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
+                <p data-i18n="footer.copyright">© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
             </div>
         </div>
-    </footer> 
-
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>

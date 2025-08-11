@@ -1,0 +1,287 @@
+{
+  "logoTitle": "VISTA.IO",
+  "nav": {
+    "cozumler": "Çözümler",
+    "vizyon": "Vizyon",
+    "programlar": "Programlar",
+    "blog": "Blog",
+    "giris": "Giriş",
+    "hemenBasla": "Hemen Başla"
+  },
+  "headerContent": {
+    "title": "Veri Analizinde Yeni Standart",
+    "subtitle": "Işletmenizi 360 Derecelik Görünümü Için Verileri Kullan",
+    "more": "Daha Fazla"
+  },
+  "offer": {
+    "title": "Verilerinizi Işletmanizi Daha Yüksek Seviyelere Taşısın",
+    "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tek veya buraya çift tıklayın.",
+    "details": [
+      {
+        "title": "Bulut Analitiği Modernizasyonu",
+        "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Kullanıcılara kendinizi tanıtın."
+      },
+      {
+        "title": "Uygulamada Çok Yönlülük",
+        "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Kullanıcılara kendinizi tanıtın."
+      },
+      {
+        "title": "Hızlandırılmış Veri Bilimi Uygulamaları",
+        "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Kullanıcılara kendinizi tanıtın."
+      },
+      {
+        "title": "Eksiksiz Müşteri Deneyimi Hizmeti",
+        "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Kullanıcılara kendinizi tanıtın."
+      }
+    ]
+  },
+  "speedReliability": {
+    "title": "Benzersiz Hız. Kusursuz Güvenirlik",
+    "paragraph1": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Bu alanı sayfanın istediğiniz bir yerine sürükleyip bırakabilirsiniz. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.",
+    "paragraph2": "Burası, şirketiniz ve hizmetleriniz hakkında uzun bir metin yazmak için harika bir yer. Bu alanı, şirketiniz ile ilgili daha ayrıntılı bilgi vermek için kullanabilirsiniz. Ziyaretçilerinize ekibinizden ve sunduğunuz hizmetlerden bahsedin. Onlara bu işi kurma fikrinin nasıl doğduğunu ve sizi rakiplerinizden ayıran şeyleri anlatın. Şirketinizin öne çıkmasını sağlayın ve ziyaretçilerinize kendinizi gösterin.",
+    "more": "Daha Fazla"
+  },
+  "numbers": {
+    "title": "Rakamlarımızla Gurur Duyuyoruz",
+    "experience": "Yıllık Deneyim",
+    "partners": "Bin Çözüm Ortağı",
+    "products": "Milyon Kurulu Ürün",
+    "countries": "Ülkede Hizmet",
+    "awards": "Endüstri Ödülü"
+  },
+  "partners": {
+    "title": "Çözüm Ortakları"
+  },
+  "readyToStart": {
+    "title": "Işlerinizi Canlandırmaya Hazır mısınız?",
+    "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tek veya buraya çift tıklayın.",
+    "button": "Hemen Başla"
+  },
+  "footer": {
+    "phone": "+90 212 234 56 78",
+    "email": "bilgi@sitem.com",
+    "address1": "Büyükdere Caddesi No. 263",
+    "address2": "Sarıyer, Istanbul 34398",
+    "nav": {
+      "cozumler": "Çözümler",
+      "vizyon": "Vizyon",
+      "programlar": "Programlar",
+      "blog": "Blog",
+      "startNow": "Hemen Başla"
+    },
+    "newsletter": {
+      "title": "Bültenimize Abone Olun",
+      "emailLabel": "E-posta*",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "button": "Gönder"
+    },
+    "followUs": {
+      "title": "Bizi Takip Edin:"
+    },
+    "policies": {
+      "privacy": "Gizlilik Politikası",
+      "cookie": "Çerez Politikası",
+      "accessibility": "Erişilebilirlik Beyanı"
+    },
+    "copyright": "© 2035, Vista.io. Wix altyapısı ve güvencesiyle"
+  },
+  "alt": {
+    "logo": "logo",
+    "prog1": "prog1",
+    "prog2": "prog2",
+    "prog3": "prog3",
+    "prog4": "prog4",
+    "partner1": "Ortak Logo 1",
+    "partner2": "Ortak Logo 2",
+    "partner3": "Ortak Logo 3",
+    "partner4": "Ortak Logo 4"
+  },
+
+   "mainContent": {
+      "title": "Hızlandırılmış Analitiğin Yeni Çağına Adım Atın",
+      "servicesTitle": "Hizmetlerimiz",
+      "services": [
+        {
+          "photoAlt": "Bulut analitiği",
+          "header": "Bulut Analitiği Modernizasyonu",
+          "description": "Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+        },
+        {
+          "photoAlt": "Bulut analitiği",
+          "header": "Hızlandırılmış Veri Bilimi Uygulamaları",
+          "description": "Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+        },
+        {
+          "photoAlt": "Bulut analitiği",
+          "header": "Uygulamada Çok Yönlü",
+          "description": "Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+        },
+        {
+          "photoAlt": "Bulut analitiği",
+          "header": "Eksiksiz Müşteri Deneyimi Hizmeti",
+          "description": "Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+        },
+        {
+          "photoAlt": "",
+          "header": "",
+          "description": "Bu, bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için “Metni Düzenle”ye tıklayın veya buraya çift tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+        }
+      ]
+    },
+
+
+    "vizyonHeader":{
+      "title": "Misyonumuz",
+      "description" : "Bu bir paragraf. Metninizi eklemek için tıklayın. İçeriğinizi eklemek ve yazı tipini değiştirmek için buraya tıklayın veya çift tıklayın. Burası bir hikaye anlatmak ve kendinizi kullanıcılarınıza tanıtmak için harika bir yer.."
+    },
+
+
+    "ourStory": {
+      "title": "Hikayemiz",
+      "paragraph1": "Bu bir paragraftır. Kendi metninizi eklemek için tıklayın. Kendi içeriğinizi eklemek ve yazı tipini değiştirmek için Metni Düzenle'ye tıklayın veya buraya çift tıklayın. Bu alanı sayfanın herhangi bir yerine sürükleyip bırakabilirsiniz. Burası bir hikaye anlatmak ve kendinizi kullanıcılarınıza tanıtmak için harika bir yerdir..",
+      "paragraph2": "Şirketiniz ve hizmetleriniz hakkında uzun bir metin yazmak için harika bir yer. Bu alanı, işletmeniz hakkında daha detaylı bilgi vermek için kullanabilirsiniz. Ziyaretçilerinize ekibiniz ve sunduğunuz hizmetler hakkında bilgi verin. Bu işe başlama fikrinin nasıl ortaya çıktığını ve sizi rakiplerinizden ayıran özellikleri açıklayın. Şirketinizin öne çıkmasını sağlayın ve ziyaretçilerinize kendinizi gösterin."
+    },
+    "leadingExperience": {
+      "title": "Deneyimli Liderlik",
+      "paragraph1": "Bu bir paragraftır. Kendi metninizi eklemek için tıklayın. Kendi içeriğinizi eklemek ve yazı tipini değiştirmek için Metni Düzenle'ye tıklayın veya buraya çift tıklayın. Bu alanı sayfanın herhangi bir yerine sürükleyip bırakabilirsiniz. Burası bir hikaye anlatmak ve kendinizi kullanıcılarınıza tanıtmak için harika bir yerdir..",
+      "paragraph2": "Şirketiniz ve hizmetleriniz hakkında uzun bir metin yazmak için harika bir yer. Bu alanı, işletmeniz hakkında daha detaylı bilgi vermek için kullanabilirsiniz. Ziyaretçilerinize ekibiniz ve sunduğunuz hizmetler hakkında bilgi verin. Bu işe başlama fikrinin nasıl ortaya çıktığını ve sizi rakiplerinizden ayıran özellikleri açıklayın. Şirketinizin öne çıkmasını sağlayın ve ziyaretçilerinize kendinizi gösterin."
+    },
+
+
+
+    "headerPrograms": {
+    "title": "Veri analiz yazılımı",
+     "description": "Bu bir paragraftır. Kendi metninizi eklemek için tıklayın."
+    },
+    "products": {
+    "prod1": {
+      "alt": "Bulut tekniği görseli",
+      "name": "Yeni Başlayanlar İçin Bulut Analitiği",
+      "duration": "14 Gün",
+      "price": "$2,400.00",
+      "seeMore": "Daha fazla"
+    },
+    "prod2": {
+      "alt": "Bulut tekniği görseli",
+      "name": "Veri Analizi Araçları",
+      "duration": "28 Gün",
+      "price": "$4,000.00",
+      "seeMore": "Daha fazla"
+    },
+    "prod3": {
+      "alt": "Bulut tekniği görseli",
+      "name": "Veriye Dayalı Karar Verme Süreci",
+      "duration": "56 Gün",
+      "price": "$5,000.00",
+      "seeMore": "Daha fazla"
+    }
+  },
+  
+  "aboutOne": {
+      "title": "Hakkında",
+      "description1": "Programınızı açıklayın. Neden herkes katılmalı? Programa katılmanın faydalarını anlatmak için kısa ve ilgi çekici bir metin kullanın. İyi bir açıklama kişilerin programınıza katılma olasılığını artırır.",
+      "description2": "Bu programa mobil uygulamadan da katılabilirsiniz."
+    },
+      "priceOne": {
+      "title": "Ücret",
+      "amount": "2.400,50 $"
+    },
+    "shareOne": {
+      "title": "Paylaşın",
+      "facebookAlt": "Facebook simgesi",
+      "twitterAlt": "Twitter simgesi",
+      "linkedinAlt": "LinkedIn simgesi",
+      "copyAlt": "Bağlantıyı kopyala simgesi"
+    },
+
+    "veriAnalitiğiHeader":{
+      "title": "Veri Analizi Araçları",
+      "description" : "28 Gün"
+    },
+
+    "veriyeDayaliKararAlmaHeader": {
+      "title": "Veriye Dayalı Karar Alma Süreci",
+      "description" :"56 Gün"
+    },
+
+  "blog": {
+    "pageTitle": "Blog",
+    "logoTitle": "VISTA.IO",
+    "btnHemenBasla": "Hemen Başla",
+    "headerTitle": "Büyük Veri Bloğu",
+    "comments": [
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Bu Yıla Damgasını Vuracak 8 Teknoloji Trendi",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "24",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Veri Sorgulama Motorlarına Giriş",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "7",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Online Veritabanına Geçiş Rehberi",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "6",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Önümüzdeki Yıl İçin Başlıca Veri Entegrasyonu Kullanım Örnekleri",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "2",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Ustalaşmanız Gereken En İyi 10 Satış Becerisi",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "2",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Şimdi Gelir İstihbaratı Zamanı",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "1",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Veri Bilimi İş Akışı Nasıl Verimli Hale Getirilir?",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "0",
+        "comments": "0"
+      },
+      {
+        "date": "31 Mayıs 2025 . 1 dakikada okunur",
+        "title": "Satış Tahmininiz Hazır. Şimdi ne olacak?",
+        "summary": "Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya",
+        "views": "3",
+        "comments": "0"
+      }
+    ]
+  },
+
+  "formHeader": {
+    "title": "Hemen Başlayın",
+    "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer."
+  },
+
+  "formSection": {
+    "description": "Bu, bir paragraf. Kendi metninizi eklemek için tıklayın. Burası, bir hikâye anlatmak ve kullanıcılarınıza kendinizi tanıtmak için harika bir yer.",
+    "firstName": "Adı",
+    "lastName": "Soyadı",
+    "email": "E-posta",
+    "company": "Şirket",
+    "phone": "Telefon",
+    "title": "Ünvan",
+    "submit": "Gönder"
+  }
+}

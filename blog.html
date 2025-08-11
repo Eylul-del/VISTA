@@ -1,335 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <title>Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <title data-i18n="blog.pageTitle">Blog</title>
 </head>
 <body>
-    
-
-    <header>
-        <nav>
+<header>
+    <nav>
             <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <a href="index.html"><h3>VISTA.IO</h3></a>
+                <img src="./images/mainLogo.png" alt="logo" id="logoImg" data-i18n-alt="alt.logo" />
+                <a href="index.html"><h3 data-i18n="logoTitle">VISTA.IO</h3></a>
             </div>
             <div class="pages">
                 <div class="cozumler">
-                <a href="cozumler.html">Çözümler</a>
+                    <a href="cozumler.html" data-i18n="nav.cozumler">Çözümler</a>
                 </div>
                 <div class="vizyon">
-                    <a href="vizyon.html">Vizyon</a>
+                    <a href="vizyon.html" data-i18n="nav.vizyon">Vizyon</a>
                 </div>
                 <div class="program">
-                    <a href="programlar.html">Programlar</a>
+                    <a href="programlar.html" data-i18n="nav.programlar">Programlar</a>
                 </div>
                 <div class="blog">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" data-i18n="nav.blog">Blog</a>
                 </div>
-                <div class="giris">
-                    <a href="giris.html"> 
-                    <i class="fa-solid fa-user"></i> Giriş
-                </a>
+                <div class="lang">
+                    <i class="fa-solid fa-language" id="langIcon"></i>
+                    <ul id="languageList" style="display: none;">
+                        <li data-lang="ar">العربية</li>
+                        <li data-lang="en">English</li>
+                        <li data-lang="tr">Türkçe</li>
+                    </ul>
                 </div>
+
                 <div class="hemenBasla">
                     <a href="startNow.html">
-                        <button>Hemen Başla</button>
+                        <button data-i18n="nav.hemenBasla">Hemen Başla</button>
                     </a>
                 </div>
             </div>
         </nav>
-        <div class="headerContent">
-            <h1>Büyük Veri Bloğu</h1>
-        </div>
-
-
-         <div class="navList" onclick="showNavList()">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="sideBar" id="sideBar">
-            <ul>
-                <li><a href="index.html">Anasayfa</a></li>
-                <li><a href="cozumler.html">Çözümler</a></li>
-                <li><a href="vizyon.html">Vizyon</a></li>
-                <li><a href="programlar.html">Programlar</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="startNow.html">Hemen Başla</a></li>
-            </ul>
-             <div class="hideBar" onclick="hideBar()">
-                <i class="fa-solid fa-xmark"></i>
-            </div>
-        </div>
-    </header>
-
-    <div class="textUs">
-        <i class="fa-solid fa-comment-dots"></i>
+    <div class="headerContent">
+        <h1 data-i18n="blog.headerTitle">Büyük Veri Bloğu</h1>
     </div>
 
-    <main>
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Bu Yıla Damgasını Vuracak 8 Teknoloji Trendi</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>24</p>
+    <div class="navList" onclick="showNavList()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="sideBar" id="sideBar">
+        <ul>
+            <li><a href="index.html" id="sideAnasayfa">Anasayfa</a></li>
+            <li><a href="cozumler.html" id="sideCozumler">Çözümler</a></li>
+            <li><a href="vizyon.html" id="sideVizyon">Vizyon</a></li>
+            <li><a href="programlar.html" id="sideProgramlar">Programlar</a></li>
+            <li><a href="blog.html" id="sideBlog">Blog</a></li>
+            <li><a href="startNow.html" id="sideHemenBasla">Hemen Başla</a></li>
+            <li>
+                    <div class="lang">
+                        <i class="fa-solid fa-language" id="langIcon"></i>
+                        <ul id="languageList" style="display: none;">
+                            <li data-lang="ar">العربية</li>
+                            <li data-lang="en">English</li>
+                            <li data-lang="tr">Türkçe</li>
+                        </ul>
                     </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+                </li>
+        </ul>
+        <div class="hideBar" onclick="hideBar()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+</header>
+
+<div class="textUs">
+    <i class="fa-solid fa-comment-dots"></i>
+</div>
+
+<main>
+
+    <div class="comment" id="comment1">
+        <div class="date">
+            <p data-i18n="blog.comments.0.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.0.title">Bu Yıla Damgasını Vuracak 8 Teknoloji Trendi</p>
+            <span data-i18n="blog.comments.0.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.0.views">24</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.0.comments">0</p>
                 </div>
+            </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Veri Sorgulama Motorlarına Giriş</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>7</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment2">
+        <div class="date">
+            <p data-i18n="blog.comments.1.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.1.title">Veri Sorgulama Motorlarına Giriş</p>
+            <span data-i18n="blog.comments.1.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.1.views">7</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.1.comments">0</p>
                 </div>
+            </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Online Veritabanına Geçiş Rehberi</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>6</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment3">
+        <div class="date">
+            <p data-i18n="blog.comments.2.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.2.title">Online Veritabanına Geçiş Rehberi</p>
+            <span data-i18n="blog.comments.2.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.2.views">6</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.2.comments">0</p>
                 </div>
+            </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Önümüzdeki Yıl İçin Başlıca Veri Entegrasyonu Kullanım Örnekleri</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>2</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment4">
+        <div class="date">
+            <p data-i18n="blog.comments.3.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.3.title">Önümüzdeki Yıl İçin Başlıca Veri Entegrasyonu Kullanım Örnekleri</p>
+            <span data-i18n="blog.comments.3.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.3.views">2</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.3.comments">0</p>
                 </div>
+            </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Ustalaşmanız Gereken En İyi 10 Satış Becerisi</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>2</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment5">
+        <div class="date">
+            <p data-i18n="blog.comments.4.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.4.title">Ustalaşmanız Gereken En İyi 10 Satış Becerisi</p>
+            <span data-i18n="blog.comments.4.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.4.views">2</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.4.comments">0</p>
                 </div>
             </div>
-        </div>
-
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Şimdi Gelir İstihbaratı Zamanı</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>1</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
-                </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Veri Bilimi İş Akışı Nasıl Verimli Hale Getirilir?</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>0</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment6">
+        <div class="date">
+            <p data-i18n="blog.comments.5.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.5.title">Şimdi Gelir İstihbaratı Zamanı</p>
+            <span data-i18n="blog.comments.5.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.5.views">1</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.5.comments">0</p>
                 </div>
             </div>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
+            </div>
         </div>
+    </div>
 
-        <div class="comment">
-            <div class="date">
-                <p>31 May 2025 . 1 dakikada okunur</p>
-                <img src="./images/3-dot.png" alt="options">
-            </div>
-            <div class="commentContent">
-                <p>Satış Tahmininiz Hazır. Şimdi ne olacak?</p>
-                <span>Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
-            </div>
-            <div class="interactions">
-                <div class="seenComment">
-                    <div>
-                        <i class="fa-regular fa-eye"></i>
-                        <p>3</p>
-                    </div>
-                    <div>
-                        <i class="fa-regular fa-message"></i>
-                        <p>0</p>
-                    </div>
+    <div class="comment" id="comment7">
+        <div class="date">
+            <p data-i18n="blog.comments.6.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
+        </div>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.6.title">Veri Bilimi İş Akışı Nasıl Verimli Hale Getirilir?</p>
+            <span data-i18n="blog.comments.6.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.6.views">0</p>
                 </div>
-                <div class="like">
-                    <i class="fa-regular fa-heart"></i>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.6.comments">0</p>
                 </div>
             </div>
-        </div>
-
-    </main>
-
-
-    <footer>
-        <div class="connectInfo">
-            <div class="logo">
-                <img src="./images/mainLogo.png" alt="logo">
-                <h3>VISTA.IO</h3>
-            </div>
-            <p>+90 212 234 56 78</p>
-            <p>bilgi@sitem.com</p>
-            <p>Büyükdere Caddesi No. 263</p>
-            <p>Sarıyer, Istanbul 34398</p>
-        </div>
-        <div class="pagesFooter">
-            <a href="#">Çözümler</a>
-            <a href="#">Vizyon</a>
-            <a href="#">Programlar</a>
-            <a href="#">Blog</a>
-            <div class="dahaFazla">
-                <a href="startNow.html">Hemen Başla</a>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
-        <div class="aboneOlun">
-            <h4>Bültenimize Abone Olun</h4>
-            <form action="">
-                <label>E-posta*</label>
-                <input type="email">
-                <button type="reset">Gönder</button>
-            </form>
+    </div>
+
+    <div class="comment" id="comment8">
+        <div class="date">
+            <p data-i18n="blog.comments.7.date">31 May 2025 . 1 dakikada okunur</p>
+            <img src="./images/3-dot.png" alt="options" />
         </div>
-        <div class="takipEdin">
-            <h4>Bizi Takip Edin:</h4>
-            <div class="icons">
-                <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+        <div class="commentContent">
+            <p data-i18n="blog.comments.7.title">Satış Tahmininiz Hazır. Şimdi ne olacak?</p>
+            <span data-i18n="blog.comments.7.summary">Yazınızı birkaç kısa ve etkili cümlede özetleyen ve kitlenizi okumaya</span>
+        </div>
+        <div class="interactions">
+            <div class="seenComment">
+                <div>
+                    <i class="fa-regular fa-eye"></i>
+                    <p data-i18n="blog.comments.7.views">3</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-message"></i>
+                    <p data-i18n="blog.comments.7.comments">0</p>
+                </div>
             </div>
-            <div class="politikalar">
-                <p>Gizlilik Politikası</p>
-                <p>Çerez Politikası</p>
-                <p>Erişilebilirlik Beyanı</p>
-            </div>
-            <div class="rights">
-                <p>© 2035, Vista.io. Wix altyapısı ve güvencesiyle</p>
+            <div class="like">
+                <i class="fa-regular fa-heart"></i>
             </div>
         </div>
-    </footer> 
+    </div>
+
+</main>
+<footer>
+  <div class="connectInfo">
+    <div class="logo">
+      <img src="./images/mainLogo.png" alt="logo" id="footerLogoImg" data-i18n-alt="alt.logo" />
+      <h3 data-i18n="footer.logoTitle">VISTA.IO</h3>
+    </div>
+    <p data-i18n="footer.phone">+90 212 234 56 78</p>
+    <p data-i18n="footer.email">info@sitem.com</p>
+    <p data-i18n="footer.address1">شارع بييوكديري رقم 263</p>
+    <p data-i18n="footer.address2">سارير، إسطنبول 34398</p>
+  </div>
+  <div class="pagesFooter">
+    <a href="#" data-i18n="footer.nav.cozumler">الحلول</a>
+    <a href="#" data-i18n="footer.nav.vizyon">الرؤية</a>
+    <a href="#" data-i18n="footer.nav.programlar">البرامج</a>
+    <a href="#" data-i18n="footer.nav.blog">المدونة</a>
+    <div class="dahaFazla">
+      <a href="startNow.html" data-i18n="footer.nav.startNow">ابدأ الآن</a>
+    </div>
+  </div>
+  <div class="aboneOlun">
+    <h4 data-i18n="footer.newsletter.title">اشترك في نشرتنا الإخبارية</h4>
+    <form action="">
+      <label for="emailInput" data-i18n="footer.newsletter.emailLabel">البريد الإلكتروني*</label>
+      <input
+        type="email"
+        id="emailInput"
+        placeholder="أدخل عنوان بريدك الإلكتروني"
+        data-i18n-placeholder="footer.newsletter.emailPlaceholder"
+      />
+      <button type="reset" data-i18n="footer.newsletter.button">إرسال</button>
+    </form>
+  </div>
+  <div class="takipEdin">
+    <h4 data-i18n="footer.followUs.title">تابعنا:</h4>
+    <div class="icons">
+      <a href="https://www.linkedin.com/feed/" id="footerLinkedin"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://www.facebook.com/" id="footerFacebook"
+        ><i class="fa-brands fa-facebook"></i
+      ></a>
+      <a href="https://www.instagram.com/aaaaaaa_aa24/?hl=en" id="footerInstagram"
+        ><i class="fa-brands fa-square-instagram"></i
+      ></a>
+    </div>
+    <div class="politikalar">
+      <p data-i18n="footer.policies.privacy">سياسة الخصوصية</p>
+      <p data-i18n="footer.policies.cookie">سياسة الكوكيز</p>
+      <p data-i18n="footer.policies.accessibility">بيان إمكانية الوصول</p>
+    </div>
+    <div class="rights">
+      <p data-i18n="footer.copyright">© 2035، Vista.io. مدعوم ومضمون بواسطة Wix</p>
+    </div>
+  </div>
+</footer>
 
 
-    <script src="main.js"></script>
-</body>
+
+<script src="main.js"></script>
 </body>
 </html>
